@@ -1,0 +1,202 @@
+/*Media Mobile de 320px a 768px*/
+@media screen and (max-width: 768px) {
+    /*Footer*/
+    .info-pie {
+        .footer-links {
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 10px 10px 10px 10px;
+            .pie-sub-link {
+                display: none;
+            }
+        }
+    }
+
+    /*Index*/
+    .carousel-section {
+        margin-top: -40px;
+    }
+    .info-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 0;
+        .box-content {
+            width: auto;
+            height: auto;
+            background-color: rgb(255, 205, 139);
+            padding-bottom: 0px;
+            padding-top: 0;
+            margin: 0;
+            .parrafo-principal {
+                margin-top: 0px;
+            }
+        }
+        .box-img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 85%;
+            }
+        }
+    }
+
+    /*Historia*/
+    .historia {
+        margin: 5px 5px 5px 5px;
+        .historia-fotos {
+            flex-direction: column;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    /*Locales*/
+    .locales {
+        padding: 5px;
+        margin: 10px 5px 10px 5px;
+        .locales-global {
+            padding: 10px;
+            width: 100%;
+        }
+        .locales-mapa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            height: 100%;
+        }
+        .locales-fotos {
+            gap: 10px;
+        }
+    }
+
+    /*Promociones*/
+    .promociones {
+        margin: 10px 5px 10px 5px;
+    }
+    .promociones-carru {
+        width: auto;
+        padding: 0;
+        gap: 0;
+        margin: 5px;
+        .promociones-contenedor {
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+        .promociones-fotos {
+            width: auto;
+        }
+        .promociones-texto {
+            width: auto;
+        }
+    }
+
+    /*Contacto*/
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        margin: 10px 5px 10px 5px;
+        padding: 5px;
+        .contacto-formulario {
+            width: 100%;
+            padding: 5px;
+        }
+    }
+}
+
+/*Media Tablet de 768px a 1024px*/
+@media screen and (max-width: 1024px) {
+    /*Index*/
+    .info-principal {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        padding: 2px;
+        margin: 0;
+        .box-content {
+            width: auto;
+            height: auto;
+            background-color: rgb(255, 205, 139);
+            padding-bottom: 0px;
+            padding-top: 0;
+            margin: 0;
+            .parrafo-principal {
+                margin-top: 0px;
+            }
+        }
+        .box-img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 85%;
+            }
+        }
+    }
+
+    /*Promociones*/
+    .promociones {
+        margin: 10px 5px 10px 5px;
+    }
+    .promociones-carru {
+        width: auto;
+        padding: 0;
+        gap: 0;
+        .promociones-contenedor {
+            flex-direction: column;
+            text-align: center;
+            margin: 0;
+            align-items: center;
+            gap: 10px;
+        }
+        .promociones-fotos {
+            width: auto;
+        }
+        .promociones-texto {
+            width: auto;
+        }
+    }
+
+    /*Locales*/
+    .locales-fotos {
+        display: flex;
+    }
+}
+
+/*Media Desktop de 1024px a 1200px*/
+@media screen and (max-width: 1200px) {
+    /*Index*/
+    .info-principal {
+        height: auto;
+        margin: 10px;
+        padding: 0%;
+        .box-content {
+            .parrafo-principal {
+                margin-top: 0px;
+            }
+        }
+    }
+}

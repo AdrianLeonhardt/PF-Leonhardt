@@ -1,0 +1,47 @@
+.navbar {
+    background-color: $color-navbar;
+    .navbar-brand {
+        .logo {
+            max-width: 130px;
+            position: relative;
+            animation: bounce 1s;
+            @keyframes bounce {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-5px);
+                }
+            }
+            &:hover {
+                animation: pulse 2s infinite;
+                @keyframes pulse {
+                    0%,
+                    100% {
+                        transform: scale(1);
+                    }
+                    50% {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-item {
+        font-size: 22px;
+        font-weight: bold;
+        text-shadow: 0.2px 0.2px 1px black;
+        a {
+            text-decoration: none;
+            color: $color-negro;
+            transition: 0.5s;
+            &:hover {
+                color: $color-blanco;
+                background-color: rgba(0, 0, 0, 0.767);
+                border-radius: 8px;
+            }
+        }
+    }
+}
